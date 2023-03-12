@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string-array name="notification_options">
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">General</string>
+    <string name="sync_header">List</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Minutes before notification (max 30)</string>
+    <string name="reply_title">Show category</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Finished tasks visibility</string>
+</resources>

@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:key="minutes"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="category"
+            app:title="Category"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="finished_visibility"
+            app:summary="Click to switch visibility"
+            app:title="@string/sync_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
